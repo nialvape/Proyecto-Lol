@@ -12,7 +12,7 @@ function App() {
   const reSize=()=>{
     setHeight(window.innerHeight);
     setWidth(window.innerWidth);
-    if(height > width){
+    if(width < 530){
       setLogoType("icono-lol")
     }
     else{
@@ -20,10 +20,24 @@ function App() {
     }
   }
 
+  const seRotoLaPantalla = ()=> {
+    setHeight(window.innerHeight);
+    setWidth(window.innerWidth);
+    if(height < 530){
+      setLogoType("icono-lol");
+      console.log("se roto la pantalla");
+    }
+    else{
+      setLogoType("cartel-lol");
+      console.log("se roto la pantalla");
+    }
+  }
   useEffect(()=>{
-    window.addEventListener("resize", reSize)
+    window.addEventListener("resize", reSize);
+    window.addEventListener("orientationchange", seRotoLaPantalla);
     return()=>{
-      window.removeEventListener("resize", reSize)
+      window.removeEventListener("resize", reSize);
+      window.removeEventListener("orientationchange", seRotoLaPantalla);
     }
   })
   
