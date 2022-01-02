@@ -20,7 +20,7 @@ function App() {
       setLogoType("cartel-lol")
     }
   }
-
+  
   const seRotoLaPantalla = ()=> {
     setHeight(window.innerHeight);
     setWidth(window.innerWidth);
