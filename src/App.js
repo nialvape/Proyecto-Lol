@@ -13,7 +13,8 @@ function App() {
     setHeight(window.innerHeight);
     setWidth(window.innerWidth);
     if(width < 530){
-      setLogoType("icono-lol")
+      setLogoType("icono-lol");
+      console.log("la pantalla cambio de tamanio a ",logoType);
     }
     else{
       setLogoType("cartel-lol")
