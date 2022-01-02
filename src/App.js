@@ -31,7 +31,7 @@ function App() {
     <div className="App" onLoad={reSize}>
       <div className="body">
         <div id="search-container" className={logoType+"-container"}>
-          <img src={"/img/"+logoType+".png"} className={logoType} alt="League of Legends Logo"/><br/>
+          <img src={"/Proyecto-Lol/img/"+logoType+".png"} className={logoType} alt="League of Legends Logo"/><br/>
           <input placeholder="  Write a sumanner name" className={logoType+"-input"}></input>
           <button className={logoType+"-button"}>search</button>
         </div>
