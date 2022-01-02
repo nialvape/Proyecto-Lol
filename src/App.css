@@ -1,0 +1,77 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+ .App{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+ }
+
+ .body{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   background: rgb(187,32,90);
+   background: linear-gradient(0deg, rgba(187,32,90,1) 0%, rgba(149,48,232,1) 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .cartel-lol-container{
+  border-radius: 30px;
+  width: 700px;
+  height: 400px;
+  background: rgb(129,23,125);
+  background: linear-gradient(0deg, rgba(129,23,125,1) 0%, rgba(167,50,50,1) 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  text-align: center;
+}
+.cartel-lol{
+  position: relative;
+  top: 60px;
+  width: 300px;
+
+}
+.cartel-lol-input{
+  position: relative;
+  top: 130px;
+  height: 30px;
+  width: 200px;
+}
+.cartel-lol-button{
+  position: relative;
+  top: 130px;
+  height: 34px;
+}
+.icono-lol{
+  position: relative;
+  top: 60px;
+  width: 100px;
+}
+.icono-lol-container{
+  border-radius: 30px;
+  width: 300px;
+  height: 500px;
+  background: rgb(129,23,125);
+  background: linear-gradient(0deg, rgba(129,23,125,1) 0%, rgba(167,50,50,1) 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  text-align: center;
+}
+.icono-lol-input{
+  position: relative;
+  top: 250px;
+  height: 30px;
+  width: 200px;
+}
+.icono-lol-button{
+  position: relative;
+  top: 250px;
+  height: 34px;
+}
